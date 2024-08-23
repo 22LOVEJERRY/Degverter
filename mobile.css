@@ -1,0 +1,108 @@
+@media(max-width:450px){
+
+    
+    header{
+        padding: 5px 10px;
+    }
+    
+    header div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3px;
+    
+    }
+    
+    div .deg{
+        font-size: 30px;
+    }
+    
+    div .deg b{
+       
+        font-size: 30px;
+        
+    }
+
+    header>img{
+        width: 25;
+    }
+    
+    
+    main{
+        background-size: cover;
+        background-position: center center;
+        position: static;
+       
+        
+    }
+    
+    
+    main h1{
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 800;
+       margin-left: 2px;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       justify-content: flex-start;
+       text-align: center;
+    
+    }
+    
+    main h1 b{
+        margin-top: 0px;
+        font-size: 35px;
+        font-weight: 800;
+        color: rgb(180, 18, 18);
+       
+    
+    }
+    
+    article{
+        padding:  10px 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1px;
+    }
+    
+    article .celsius{
+        height: 120px;
+        width: 120px;
+    
+    }
+    
+    article .faren{
+        height: 120px;
+        width: 120px;
+    }
+    
+    
+    form{
+        margin-top: 15px;
+        gap: 15px;
+       
+       
+    }
+    
+    form input{
+        width: 80%;
+    }
+    form button{
+        width: 40%;
+    }
+    
+   
+    nav{
+        margin-top: 25px;
+    }
+    
+    footer{
+        padding: 5px 10px;
+    }
+    
+    footer p{
+        font-size: 10px;
+    }
+}
